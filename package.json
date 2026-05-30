@@ -1,5 +1,5 @@
 {
-  "name": "rivet-ws",
+  "name": "@igosproject/rivet-ws",
   "version": "1.0.0",
   "description": "WebSocket plugin for @igosprojects/rivet",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "pnpm run build"
   },
   "keywords": [
     "rivet"
@@ -17,9 +18,19 @@
   "packageManager": "pnpm@10.33.0",
   "dependencies": {
     "@igosprojects/rivet": "^1.0.6",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
     "@types/node": "^25.9.1",
     "@types/ws": "^8.18.1",
-    "prettier": "^3.8.3",
-    "ws": "^8.21.0"
-  }
+    "prettier": "^3.8.3"
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgosProjects/rivet-ws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IgosProjects/rivet-ws/issues"
+  },
+  "homepage": "https://github.com/IgosProjects/rivet-ws#readme"
 }
