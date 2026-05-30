@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@igosprojects/rivet':
+        specifier: ^1.0.6
+        version: 1.0.6
+
+packages:
+
+  '@igosprojects/rivet@1.0.6':
+    resolution: {integrity: sha512-LhkQRwKrSEOGvC5cd/LFmlKH1Gbz4J7nMD7qug+xzOavdiSfqxseRDRt1u4YnHApsB4XJDEQ/SRF/HSjSgivig==}
+
+snapshots:
+
+  '@igosprojects/rivet@1.0.6': {}
