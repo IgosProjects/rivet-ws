@@ -3,6 +3,11 @@
   "version": "1.0.1",
   "description": "WebSocket plugin for @igosprojects/rivet",
   "main": "index.js",
+  "files": [
+    "src",
+    "test",
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
