@@ -1,6 +1,6 @@
 {
   "name": "@igosprojects/rivet-ws",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "WebSocket plugin for @igosprojects/rivet",
   "main": "index.js",
   "files": [
