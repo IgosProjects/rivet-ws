@@ -2,7 +2,7 @@
   "name": "@igosprojects/rivet-ws",
   "version": "1.0.2",
   "description": "WebSocket plugin for @igosprojects/rivet",
-  "main": "index.js",
+  "main": "dist/plugin.ts",
   "files": [
     "src",
     "test",
